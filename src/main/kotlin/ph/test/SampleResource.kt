@@ -14,7 +14,8 @@ class SampleResource (
     private val service: ServiceInterface,
 ) {
     @Route(
-        path = "/identifyCardDetailsByID",
+//        path = "/identifyCardDetailsByID",
+        path = "/identifyCardDetailsByID/:cardNo",
         methods = [Route.HttpMethod.GET],
         produces = [MediaType.APPLICATION_JSON]
     )
