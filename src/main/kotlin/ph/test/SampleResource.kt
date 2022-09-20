@@ -22,6 +22,6 @@ class SampleResource (
         @Param(value = "cardNo") id: String? = null,
         rc: RoutingContext
     ): Uni<BinResp> {
-        return this.service.identifyCardDetailsByID("{cardNo}")
+        return this.service.identifyCardDetailsByID(id)
     }
 }

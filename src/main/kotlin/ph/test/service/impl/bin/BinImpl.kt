@@ -12,6 +12,6 @@ import ph.test.service.impl.bin.client.BinClient
 class BinImpl ( @RestClient private val client: BinClient )
     : ServiceInterface {
 
-    override fun identifyCardDetailsByID(cardNo: String): Uni<BinResp> = this.client.getCardDetailsByID(cardNo)
+    override fun identifyCardDetailsByID(cardNo: String?): Uni<BinResp> = this.client.getCardDetailsByID(cardNo)
 }
 

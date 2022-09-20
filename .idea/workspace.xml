@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6d005f-e73e-4974-8f00-0e7d70865887" name="Changes" comment="" />
+    <list default="true" id="ed6d005f-e73e-4974-8f00-0e7d70865887" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build-metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/build-metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/code-with-quarkus-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/code-with-quarkus-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ph/test/SampleResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ph/test/SampleResource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/ServiceInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/ServiceInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/impl/bin/BinImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/impl/bin/BinImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/impl/bin/client/BinClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ph/test/service/impl/bin/client/BinClient.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
