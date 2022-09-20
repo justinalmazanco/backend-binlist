@@ -47,21 +47,21 @@ class SampleResource (
         @Param(value = "id") id: String? = null,
         rc: RoutingContext
     ): Uni<BinResp> {
-//        val resp = BinResp(
-//            number = BinNumber(
-//                length = 10,
-//                luhn = true
-//            ),
-//
-//            prepaid = false,
-//
-//            bank = BinBank(
-//                name = "Jyske Bank",
-//                url = "www.jyskebank.dk",
-//                phone = "+4589893300",
-//                city = "Hjørring"
-//            )
-//        )
+        val resp = BinResp(
+            number = BinNumber(
+                length = 10,
+                luhn = true
+            ),
+
+            prepaid = false,
+
+            bank = BinBank(
+                name = "Jyske Bank",
+                url = "www.jyskebank.dk",
+                phone = "+4589893300",
+                city = "Hjørring"
+            )
+        )
 //
 //        return Uni.createFrom().item(resp)
     }
