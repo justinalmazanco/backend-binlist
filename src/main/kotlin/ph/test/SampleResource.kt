@@ -8,8 +8,6 @@ import ph.test.service.ServiceInterface
 import ph.test.service.impl.bin.model.BinResp
 import javax.enterprise.context.ApplicationScoped
 import javax.ws.rs.core.MediaType
-import ph.test.service.impl.bin.BinImpl
-
 
 @ApplicationScoped
 class SampleResource (
