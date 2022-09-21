@@ -29,7 +29,7 @@ data class BinNumber(
     @field:JsonProperty(value = "length")
     val length: Int? = null,
     @field:JsonProperty(value = "luhn")
-    val luhn: Boolean? = null,
+    val luhn: Boolean? = null
 )
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -48,7 +48,7 @@ data class BinCountry(
     @field:JsonProperty(value = "latitude")
     val latitude: Int? = null,
     @field:JsonProperty(value = "longitude")
-    val longitude: Int? = null,
+    val longitude: Int? = null
 )
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -61,7 +61,7 @@ data class BinBank(
     @field:JsonProperty(value = "phone")
     val phone: String? = null,
     @field:JsonProperty(value = "city")
-    val city: String? = null,
+    val city: String? = null
 )
 
 

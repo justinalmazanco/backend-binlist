@@ -2,10 +2,7 @@ package ph.test.service.impl.bin.client
 
 import io.smallrye.mutiny.Uni
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient
-import ph.test.service.impl.bin.model.BinBank
-import ph.test.service.impl.bin.model.BinCountry
-import ph.test.service.impl.bin.model.BinNumber
-import ph.test.service.impl.bin.model.BinResp
+import ph.test.service.impl.bin.model.*
 import javax.ws.rs.*
 import javax.ws.rs.core.MediaType
 
@@ -22,26 +19,27 @@ interface BinClient {
     @Path("")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    fun createNewCard(
-        scheme: String?,
-        bank: BinBank?,
-        brand: String?,
-        country: BinCountry?,
-        number: BinNumber?,
-        prepaid: Boolean?,
-        type: String?,
-        length: Int?,
-        luhn: Boolean?,
-        numeric: String?,
-        alpha2: String?,
-        name: String?,
-        emoji: String?,
-        currency: String?,
-        latitude: Int?,
-        longitude: Int?,
-        name2: String?,
-        url: String?,
-        phone: String?,
-        city: String?
-    ): Uni<BinResp>
+    fun createNewCard(payload: BinResp?): Uni<BinResp>
+
+//    fun createNewCard(
+//        length: Int?,
+//        luhn: Boolean?,
+//        scheme: String?,
+//        type: String?,
+//        brand: String?,
+//        prepaid: Boolean?,
+//        longitude: Int?,
+//        latitude: Int?,
+//        name: String?,
+//        alpha2: String?,
+//        numeric: String?,
+//        emoji: String?,
+//        currency: String?,
+//        url: String?,
+//        name2: String?,
+//        city: String?,
+//        phone: String?
+//    ): Uni<BinResp>
+
+//    fun createNewCard(payload: String): Uni<BinResp>
 }
